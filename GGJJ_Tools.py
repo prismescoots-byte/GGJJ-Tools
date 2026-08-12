@@ -100,11 +100,11 @@ def print_banner():
         padding = max(0, (terminal_width - len(line)) // 2)
         print(" " * padding + color + line + RESET)
 
-    print(f"
+    print(f"\n{BLUE}GGJJ Tools{RESET}  {RED}|{RESET}  Cybersecurity Education Toolkit\n")
 {BLUE}GGJJ Tools{RESET}  {RED}|{RESET}  Cybersecurity Education Toolkit
 ")
     print(f"{LIGHT_BLUE}[+] Running on:{RESET} {platform.system()} {platform.release()}")
-    print(f"{LIGHT_BLUE}[+] Output directory:{RESET} {OUTPUT_DIR}
+    print(f"{LIGHT_BLUE}[+] Output directory:{RESET} {OUTPUT_DIR}\n")
 ")
 # ==================== MENU ====================
 def print_menu(page=1):
